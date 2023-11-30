@@ -60,6 +60,24 @@ const app = {
             path: './music/Vet-Mua-Vu-Cat-Tuong.mp3',
             img: './img/img11.jpg',
         },
+        {
+            name: "Ngõ chạm",
+            singer: 'BIGDADDY x EMILY',
+            path: './music/Y2meta.app - NGÕ CHẠM - BIGDADDY x EMILY _ OFFICIAL MUSIC VIDEO (128 kbps).mp3',
+            img:'./img/ngocham.jpg',
+        },
+        {
+            name: "Có em",
+            singer: 'Madihu (Feat. Low G)',
+            path: './music/Y2meta.app - Madihu - Có em (Feat. Low G) [Official MV] (128 kbps).mp3',
+            img:'./img/coem.jpg',
+        },
+        {
+            name: "淪陷",
+            singer: '王靖雯',
+            path: './music/Y2meta.app - 王靖雯 - 淪陷『你走之后整個世界 像是期待黎明的黑夜』【Lyrics Video】 (128 kbps).mp3',
+            img: './img/vaygiu.jpg',
+        },
     ],
     render: function() {
         const htmls = this.songs.map((song, index) => {

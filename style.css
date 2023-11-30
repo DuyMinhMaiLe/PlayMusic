@@ -135,6 +135,7 @@ header h2 {
 }
 
 .song {
+  cursor: pointer;
   display: flex;
   align-items: center;
   margin-bottom: 12px;

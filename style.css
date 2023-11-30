@@ -89,13 +89,13 @@ header h2 {
 }
 
 .control .btn {
-  color: #D1495B;
+  color: rgba(249, 249, 249, 0.214);
   padding: 18px;
   font-size: 18px;
 }
 
 .control .btn.active {
-  color: var(--primary-color);
+  color: #D1495B;
 }
 
 .control .btn-toggle-play {

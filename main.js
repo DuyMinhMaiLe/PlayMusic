@@ -48,6 +48,12 @@ const app = {
             path: './music/music5.mp3',
             img: './img/img5.jpg'
         },
+        {
+            name: "Yêu anh đi mẹ anh bán bánh mì",
+            singer: 'Phúc Du',
+            path: './music/music10.mp3',
+            img: './img/img10.jpg',
+        },
     ],
     render: function() {
         const htmls = this.songs.map((song, index) => {

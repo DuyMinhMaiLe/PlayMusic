@@ -43,24 +43,6 @@ const app = {
             img: './img/img8.jpg',
         },
         {
-            name: 'Waiting for you',
-            singer: 'Mono',
-            path: './music/music1.mp3',
-            img: './img/img1.jpg',
-        },
-        {
-            name: 'Nếu lúc đó',
-            singer: 'Tlinh',
-            path: './music/music3.mp3',
-            img: './img/img3.jpg'
-        },
-        {
-            name: 'Mưa tháng sáu',
-            singer: 'Văn Mai Hương',
-            path: './music/music4.mp3',
-            img: './img/img4.jpg'
-        },
-        {
             name: 'Đưa em về nhà',
             singer: 'GREY D',
             path: './music/music5.mp3',

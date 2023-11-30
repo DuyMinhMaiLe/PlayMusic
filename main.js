@@ -32,7 +32,7 @@ const app = {
     songs: [
         {
             name: "tình yêu chậm trễ",
-            singer: 'MONSTAR',
+            singer: 'MONSTAR, GREY D',
             path: './music/yt5s.io - MONSTAR - TÌNH YÊU CHẬM TRỄ _ Official Music Video (128 kbps).mp3',
             img: './img/tinhyeuchamtre.jpg',
         },

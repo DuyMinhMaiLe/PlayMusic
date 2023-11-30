@@ -54,6 +54,12 @@ const app = {
             path: './music/music10.mp3',
             img: './img/img10.jpg',
         },
+        {
+            name: "Vết mưa",
+            singer: 'Vũ Cát Tường',
+            path: './music/Vet-Mua-Vu-Cat-Tuong.mp3',
+            img: './img/img11.jpg',
+        },
     ],
     render: function() {
         const htmls = this.songs.map((song, index) => {
@@ -255,3 +261,16 @@ const app = {
 }
 
 app.start();
+
+
+// Clounds
+document.addEventListener("DOMContentLoaded", function() {
+    const backgroundContainer = document.getElementById("background");
+    const backgroundImage = document.createElement("div");
+    backgroundImage.className = "background-image";
+    backgroundContainer.appendChild(backgroundImage);
+  });
+  
+  
+  
+  

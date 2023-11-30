@@ -102,6 +102,12 @@ const app = {
             path: './music/Y2meta.app - 王靖雯 - 淪陷『你走之后整個世界 像是期待黎明的黑夜』【Lyrics Video】 (128 kbps).mp3',
             img: './img/vaygiu.jpg',
         },
+        {
+            name: "Sleep 30 minutes (I hope you like it...)",
+            singer: 'null',
+            path: './music/yt5s.io - 30 MINUTES Gentle Rain at Night, Rain Sounds for Sleep, Insomnia, Relaxing, Meditation, Yoga, Study (128 kbps).mp3',
+            img: './img/dengu.jpg',
+        },
     ],
     render: function() {
         const htmls = this.songs.map((song, index) => {

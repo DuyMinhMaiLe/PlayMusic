@@ -31,6 +31,18 @@ const app = {
 
     songs: [
         {
+            name: "tình yêu chậm trễ",
+            singer: 'MONSTAR',
+            path: './music/yt5s.io - MONSTAR - TÌNH YÊU CHẬM TRỄ _ Official Music Video (128 kbps).mp3',
+            img: './img/tinhyeuchamtre.jpg',
+        },
+        {
+            name: "Rồi ta sẽ ngắm pháo hoa cùng nhau",
+            singer: 'O.lew',
+            path: './music/yt5s.io-RỒI TA SẼ NGẮM PHÁO HOA CÙNG NHAU _ MV OFFICIAL _ O.lew-(128kbps).ogg',
+            img: './img/roitasengam.jpg',
+        },
+        {
             name: "nop",
             singer: 'ChenYueLong',
             path: './music/X2Download.app - absolute music _ nop -- ChenYueLong.! (128 kbps).mp3',

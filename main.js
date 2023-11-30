@@ -31,6 +31,24 @@ const app = {
 
     songs: [
         {
+            name: "nop",
+            singer: 'ChenYueLong',
+            path: './music/X2Download.app - absolute music _ nop -- ChenYueLong.! (128 kbps).mp3',
+            img: './img/nop.jpg',
+        },
+        {
+            name: "time machine",
+            singer: 'mj apanay',
+            path: './music/Y2meta.app - [Vietsub + Lyrics] Time machine - mj apanay (feat. aren park) (128 kbps).mp3',
+            img: './img/timeMachine.jpg',
+        },
+        {
+            name: "Thế hệ tan vỡ",
+            singer: 'Kaidinh x Sivan',
+            path: './music/X2Download.app - Thế Hệ Tan Vỡ (Lofi Lyrics) - KaiDinh x Sivan x meChill (128 kbps).mp3',
+            img: './img/thehetanvo.jpg',
+        },
+        {
             name: "Chiều hôm ấy",
             singer: 'JayKii',
             path:'./music/music9.mp3',

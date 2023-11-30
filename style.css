@@ -40,6 +40,7 @@ html {
 .dashboard {
   padding: 16px 16px 14px;
   background: linear-gradient(to right, #30638E, #D1495B);
+  /* background: url('./img/bgr.jpg') center/cover no-repeat; */
   position: fixed;
   top: 0;
   width: 100%;
@@ -147,7 +148,6 @@ header h2 {
 
 .song.active {
   background: linear-gradient(to right, #30638E, #D1495B);
-
 }
 
 .song:active {
@@ -191,10 +191,10 @@ header h2 {
 
 
 /* clound */
-body {
+/* body {
   margin: 0;
   overflow: hidden;
-}
+} */
 
 .background-container {
   position: fixed;
@@ -212,14 +212,9 @@ body {
   left: 0;
   width: 200%;
   height: 100%;
-  background: url('./img/bgr.jpg') repeat-x;
-  animation: moveBackground linear infinite;
-}
+  background: url('./img/bgr.jpg') center/cover no-repeat;
+  /* background: linear-gradient(to right, #30638E, #D1495B); */
 
-@keyframes moveBackground {
-  to {
-    transform: translateX(-50%);
-  }
 }
 
 

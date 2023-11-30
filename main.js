@@ -124,6 +124,7 @@ const app = {
             cd.style.width = newCdWidth > 0 ? newCdWidth +'px': 0
             cd.style.opacity = newCdWidth / cdWidth
         }
+          
 
         // Xu li khi kich play
         playBtn.onclick = function() {

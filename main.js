@@ -67,12 +67,6 @@ const app = {
             img: './img/img5.jpg'
         },
         {
-            name: "Yêu anh đi mẹ anh bán bánh mì",
-            singer: 'Phúc Du',
-            path: './music/music10.mp3',
-            img: './img/img10.jpg',
-        },
-        {
             name: "Vết mưa",
             singer: 'Vũ Cát Tường',
             path: './music/Vet-Mua-Vu-Cat-Tuong.mp3',

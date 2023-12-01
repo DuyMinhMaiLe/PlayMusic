@@ -31,6 +31,12 @@ const app = {
 
     songs: [
         {
+            name: "Không yêu xin đừng nói",
+            singer: 'UMIE',
+            path: './music/Y2meta.app - (Piano Ver.) Không Yêu Xin Đừng Nói - UMIE (Prod. ToneRx) (128 kbps).mp3',
+            img: './img/lovesong.jpg',
+        },
+        {
             name: "tình yêu chậm trễ",
             singer: 'MONSTAR, GREY D',
             path: './music/yt5s.io - MONSTAR - TÌNH YÊU CHẬM TRỄ _ Official Music Video (128 kbps).mp3',

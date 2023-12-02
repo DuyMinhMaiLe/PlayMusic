@@ -31,6 +31,12 @@ const app = {
 
     songs: [
         {
+            name: "Những dòng tin nhắn",
+            singer: 'Minh Huy, Pinny',
+            path: './music/Y2meta.app - Những Dòng Tin Nhắn - Minh Huy × Pinny (Lyrics) (128 kbps).mp3',
+            img: './img/nhungdongtinnhan.jpg',
+        },
+        {
             name: "Không yêu xin đừng nói",
             singer: 'UMIE',
             path: './music/Y2meta.app - (Piano Ver.) Không Yêu Xin Đừng Nói - UMIE (Prod. ToneRx) (128 kbps).mp3',
@@ -326,6 +332,37 @@ document.addEventListener("DOMContentLoaded", function() {
     backgroundContainer.appendChild(backgroundImage);
   });
   
+
+//   API
+
+document.addEventListener("DOMContentLoaded", function () {
+    // Lấy thông tin về người dùng
+    const userAgent = navigator.userAgent;
+    const ipAddress = fetch('https://api64.ipify.org?format=json')
+        .then(response => response.json())
+        .then(data => data.ip);
+
+    // Gửi thông tin về người dùng đến một dịch vụ theo dõi
+    const trackingUrl = 'https://your-tracking-service.com/track';
+    const trackingData = {
+        userAgent,
+        ipAddress,
+        page: window.location.href,
+        timestamp: new Date().toISOString()
+    };
+
+    // Sử dụng Fetch API để gửi dữ liệu POST đến dịch vụ theo dõi
+    fetch(trackingUrl, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(trackingData),
+    })
+    .then(response => response.json())
+    .then(data => console.log('Tracking response:', data))
+    .catch(error => console.error('Error:', error));
+});
   
   
   
